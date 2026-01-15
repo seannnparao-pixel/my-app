@@ -10,6 +10,7 @@ export enum PeriodType {
 }
 
 export interface TimeEntry {
+  id?: string;
   date: string; // ISO string or specific format
   day: string;
   startTime: string; // HH:mm format
